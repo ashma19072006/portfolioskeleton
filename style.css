@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding :0;
+}
+body{
+    height: 100%;
+    width: 100vh;
+
+}
+main{
+    height:100%;
+    width:100%;
+    padding: 10px;
+}
+.header{
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    background-color: aliceblue;
+}
+.header a{
+    color: rgb(24, 24, 241);
+}
+.fakeHeader{
+    height: 10vh;
+    width: 100%;
+     
+}
+#about{
+    height: 90vh;
+    width: 100%;
+   
+}
+#about img{
+    border-radius: 50%;
+}
+#skills{
+    height: 90vh;
+    width: 100%;
+   
+}
+#projects {
+    height: 90vh;
+    width: 100%;
+}
+#contactDetails{
+    height: 90vh;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
