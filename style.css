@@ -2,52 +2,185 @@
     margin:0;
     padding :0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     height: 100%;
-    width: 100vh;
-
+    width: 100%;
+    background-color: rgb(167, 241, 241);
+}
+section{
+    scroll-margin-top: 10vh;
 }
 main{
     height:100%;
     width:100%;
-    padding: 10px;
+    
 }
 .header{
     height: 10vh;
     width: 100%;
     position: fixed;
-    background-color: aliceblue;
+    background-color:rgb(47, 238, 238) ;
+    display:flex ;
+    justify-content:space-between;
+    align-items: center;
 }
-.header a{
-    color: rgb(24, 24, 241);
+.headerA{
+    margin-right: 10px;
+}
+.hLinks
+{
+    margin:10px;
+}
+ a{
+    color: rgb(95, 95, 239);
+    text-decoration: none;
 }
 .fakeHeader{
     height: 10vh;
     width: 100%;
      
 }
-#about{
+h1{
+    text-align: center;
+    font-size: 70px;
+    color: rgb(0, 200, 200);
+    text-shadow:2px 2px  rgb(116, 126, 128) ;
+}
+#home{
+    scroll-margin-top: 45vh;
     height: 90vh;
     width: 100%;
+    
+}
+h2{
    
+    
+    color: rgb(5, 185, 185);
+    text-shadow:2px 2px  rgb(195, 216, 220) ;
+}
+#home h1{
+    margin-top:35vh;
+    
+    font-size: 55px;
+    color: rgb(45, 156, 168);
+    text-shadow: 2px 2px  rgb(178, 188, 190);
+    /* margin-bottom: 3vh; */
+}
+.hometext{
+    color: rgb(137, 148, 149);
+    text-align: center;
+}
+
+#about{
+    
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 #about img{
     border-radius: 50%;
+    height:35vh;
+    width: 35vh;
+    margin-bottom: 20px;
+     box-shadow:1px 1px 3px 5px rgb(81, 175, 187) ;
+}
+h2
+{
+    text-align: center;
+}
+#parabox
+{
+    color:  rgb(5, 185, 185);
+    height: 30vh;
+    width: 70vw;
+    text-align:justify;
 }
 #skills{
+   
     height: 90vh;
     width: 100%;
-   
+    
+}
+
+.sameBox
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin-top: 20vh;
+}
+.sBox{
+    background-color: rgb(237, 243, 243);
+    border: 2px ;
+    border-radius: 2px;
+    margin: 10px;
+    height: 60px;
+    width:70px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow:1px 1px 5px 3px rgb(105, 219, 237) ;
 }
 #projects {
     height: 90vh;
     width: 100%;
 }
+.projectbox{
+    background-color: rgb(237, 243, 243);
+    border: 2px ;
+    border-radius: 4px;
+    color: rgb(49, 172, 188);
+    height: 25vh;
+    width:15vw;
+    display: flex;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow:1px 1px 5px 3px rgb(105, 219, 237) ;
+}
+.procontainer
+{
+    
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.ticimg
+{
+    height: 20vh;
+    width:14vw ;
+    border-radius :5px; 
+}
 #contactDetails{
     height: 90vh;
     width: 100%;
+     
 }
-h1{
+#detailbox{
+     display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    font-size: 50px;
+    color: rgb(18, 27, 27);
 }
+
+#logo
+{
+    margin-left:10px ;
+}
+

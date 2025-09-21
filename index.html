@@ -7,20 +7,32 @@
     <body>
         <main>
             <div class="header">
-                
-                <a href="#about">about</a>
-                <a href="#skills">skills</a>
-                <a href="#projects">projects</a>
-                <a href="#contactDetails">contact details</a>
+              <div id="logop">
+                <img id="logo"src="logoportfolio.png" height="25vh">
+              </div>
+              <div class ="headerA">
+                <a class="hLinks" href="#home">Home</a>
+                <a class="hLinks" href="#about">About</a>
+                <a class="hLinks" href="#skills">Skills</a>
+                <a class="hLinks" href="#projects">Projects</a>
+                <a class="hLinks" href="#contactDetails">Contact </a>
+              </div> 
             </div>
             <div class="fakeHeader">
               
             </div>
+            <section id="home">
+              <div class="hometext">
+                <h1>Welcome to My Portfolio Website!</h1>
+                <p><i>"This portfolio website highlights some of  my initial projects,the skills I'm developing ,and my passion for continuous learning ."</i></p>
+              </div>
+            </section>
             <section id="about">
               <div id="imgBox">
-              <img src="porfolio.jpg" height="350px" width="400px">
+              <img src="porfolio.jpg" >
               </div>
               <div id="paraBox">
+                <h2><i>about me!</i></h2>
               <p><i>Hi!I am Mansi Sharma , currently pursuing a Bachelor of Technology in Artificial Intelligence
                 and Machine Learning from Madhav Institute of Technology and Science.I belongs to Gwalior.I have a 
                 strong interest in mathematics and problem-solving,which motivated me to choose engineering as my 
@@ -36,20 +48,20 @@
 
             <section id="skills">
                 <h1><i>Skills</i></h1>
-             <div id="skillsBox">
-              <div id="html">
+             <div class="sameBox" id="skillsBox">
+              <div class ="sBox"id="html">
               <p><i class="fa-brands fa-html5" style="color: #FFD43B;"></i></p> 
                <p>html5</p>
               </div>
-              <div id="css">
+              <div class ="sBox" id="css">
                <p><i class="fa-brands fa-css3-alt" style="color: #ff943d;"></i></p>
                <p>css</p>
               </div>
-              <div id="js">
+              <div class ="sBox" id="js">
                 <p> <i class="fa-brands fa-js" style="color: #FFD43B;"></i></p> 
                 <p>js</p>
               </div>
-              <div id="c++">
+              <div class ="sBox" id="c++">
                 <p><i class="fa-solid fa-computer" style="color: #146eb3;"></i></p>
                 <p>c++ & oops</p>
               </div>
@@ -58,31 +70,77 @@
 
             <section id="projects">
                <h1><i>Projects</i></h1>
-               <div class="projectbox"><a href="https://tic-tac-toe-mansi.netlify.app/">Tic Tac Toe</a></div>
-               <div class="projectbox"><a href="https://pokemon-cardg.netlify.app/">Card game</a></div>
-               <div class="projectbox"><a href="https://shapegam.netlify.app/"> Shape game</a></div>
-               <div class="projectbox"><a href="https://gitloginpage.netlify.app/#">Git hub clone</a></div>
-               <div class="projectbox"><a href="https://mansimansi.netlify.app/">Google Clone</a></div>
-               <div class="projectbox"><a href=""></a></div> 
+             <div class="proContainer">
+               <div class="projectbox">
+                
+                <p>Tic tac toe</p>
+                <img class="ticimg"src="tictactoe.jpg">
+                <div>
+                 <a href="https://tic-tac-toe-mansi.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"style="color: black;"></i></a>
+                 <a href="https://github.com/ashma19072006/tic-tac"><i class="fa-brands fa-github"style="color: black;"></i></a>
+                </div> 
+               </div>
+               <div class="projectbox">
+                <p>Card game</p>
+                <img class="ticimg"src="">
+                <div>
+                 <a href="https://pokemon-cardg.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"style="color: black;"></i></a>
+                <a href="https://github.com/ashma19072006/card-game"> <i class="fa-brands fa-github"style="color: black;"></i></a>
+                </div>
+                
+                
+               </div>
+               <div class="projectbox">
+                <p>Shape game</p>
+                <img class="ticimg"src="">
+                <div>
+                 <a href="https://shapegam.netlify.app/"> <i class="fa-solid fa-arrow-up-right-from-square"style="color: black;"></i></a>
+                <a href="https://github.com/ashma19072006/shapegame"> <i class="fa-brands fa-github"style="color: black;"></i></a>
+                
+                </div>
+                
+               </div>
+               <div class="projectbox">
+                <p>github clone</p>
+                <img class="ticimg"src="">
+                <div>
+                  <a href="https://gitloginpage.netlify.app/#"><i class="fa-solid fa-arrow-up-right-from-square"style="color: black;"></i></a>
+                <a href="https://github.com/ashma19072006/login-page"> <i class="fa-brands fa-github"style="color: black;"></i></a>
+                
+                </div>
+                
+               </div>
+               <div class="projectbox">
+                <p>Google Clone</p>
+                <img class="ticimg"src="">
+                <div>
+                  <a href="https://mansimansi.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"style="color: black;"></i></a>
+                <a href="https://github.com/ashma19072006/Google-Clone"><i class="fa-brands fa-github"style="color: black;"></i></a>
+                </div>
+                
+                
+               </div>
+            </div>
             </section>
 
             <section id="contactDetails">
-              <h1><i>Let's  Collaborate Together</i></h1>
-              <div id="detailBox">
-               <div id="linkedin">
+              <h1><i>Connect with me</i></h1>
+              <div class="sameBox" id="detailBox">
+               <div class ="sBox"id="linkedin">
                 <a href="https://www.linkedin.com/in/mansi-sharma-628904372?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin" style="color: #3d9ae1;"></i></a>
-                <p></p>
+                <p>linkedin</p>
                </div>
-               <div id="email">
+               <div class ="sBox"id="email">
                 <a href="mailto:mansi19sh@gmail.com"> <i class="fa-solid fa-square-envelope" style="color: #74C0FC;"></i></a>
-                <p></p>
+                <p>email</p>
                </div>
-               <div id="github">
-                <a href ="https://github.com/ashma19072006"> <i class="fa-brands fa-square-github"></i></a>
-                <p></p>
+               <div class ="sBox" id="github">
+                <a href ="https://github.com/ashma19072006"> <i class="fa-brands fa-square-github " style="color: black;"></i></a>
+                <p>github</p>
                </div> 
-               <div>
+               <div class ="sBox">
                 <a href="https://app.netlify.com/teams/ashma19072006/projects"><i class="fa-solid fa-diamond" style="color: #63E6BE;"></i></a>
+                <p>netlify</p>
                </div>
               </div>
             </section>
