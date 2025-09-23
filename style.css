@@ -89,6 +89,7 @@ h2{
     width: 35vh;
     margin-bottom: 20px;
      box-shadow:1px 1px 3px 5px rgb(81, 175, 187) ;
+     object-fit:cover;
 }
 h2
 {
